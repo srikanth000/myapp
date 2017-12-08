@@ -9,6 +9,7 @@ gem 'jquery-rails', '4.3.1'
 gem 'turbolinks',   '5.0.1'
 gem 'jbuilder',     '2.7.0'
  gem 'pg', '0.18.4'
+ gem 'bcrypt',         '3.1.11'
  gem 'bootstrap-sass'
 
 group :development, :test do
