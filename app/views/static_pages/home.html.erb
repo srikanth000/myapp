@@ -6,7 +6,20 @@
 	
 </head>
 <body>
+<div class="center jumbotron">
+  <h1>Welcome to the Sample App</h1>
 
-sample app
+  <h2>
+    This is the home page for the
+    <a href="http://www.railstutorial.org/">Ruby on Rails</a>
+    sample application.
+  </h2>
+
+  <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("https://blog.izooto.com/wp-content/uploads/2016/12/mobile-app-chat.png", alt: "Rails logo"),
+            'http://rubyonrails.org/' %>
+
 </body>
 </html>
